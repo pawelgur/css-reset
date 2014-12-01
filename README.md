@@ -11,7 +11,7 @@ This includes:
 
 ####Usage
 
-Include *dist/pg-reset.css* or *dist/pg-reset.css* in your project
+Include *dist/pg-reset.css* or *dist/pg-reset.min.css* in your project
 
 ####Bower
 
