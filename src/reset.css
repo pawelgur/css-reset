@@ -1,0 +1,45 @@
+﻿/******************************************************
+*   Custom styles added by P.G.
+*
+******************************************************/
+
+html, body{
+	height: 100%;
+}
+
+ul{
+	list-style: none;
+}
+
+/* Reset basic layout building blocks position and v-align */
+div, span, article, section, aside, footer, header{ 
+    vertical-align:top; 
+    position: relative;
+}
+
+/* Remove underline */
+a{
+	text-decoration: none;
+}
+
+/* Reset bold text (usable when font-face is used) */
+h1, h2, h3, h4, h5{
+	font-weight: normal;
+}
+
+/* Reset HTML5 Search Input styling  */
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+input[type=search] {
+  -moz-appearance:    textfield;
+  -webkit-appearance:textfield;
+  -webkit-box-sizing:content-box;
+  appearance: textfield;
+}
+input[type=search]::-ms-clear{
+	display: none;
+}

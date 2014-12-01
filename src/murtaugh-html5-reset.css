@@ -1,0 +1,24 @@
+/******************************************************
+*   Styles taken from html5-reset
+*   https://github.com/murtaugh/HTML5-Reset/
+*
+******************************************************/
+
+/* Handle box-sizing while better addressing child elements: 
+   http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
+
+/* Responsive images and other embedded objects
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+   If this default setting for images is causing issues, you might want to replace it with a .responsive class instead. */
+img,
+object,
+embed {max-width: 100%;}
