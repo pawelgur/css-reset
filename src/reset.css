@@ -17,9 +17,10 @@ div, span, article, section, aside, footer, header{
     position: relative;
 }
 
-/* Remove underline */
+/* Reset underline and color */
 a{
 	text-decoration: none;
+  color: inherit;
 }
 
 /* Reset bold text (usable when font-face is used) */
