@@ -1,6 +1,6 @@
 {
   "name": "pg-css-reset",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Custom css reset based on html5doctor implementation",
   "main": "dist/pg-reset.min.css",
   "keywords": [
